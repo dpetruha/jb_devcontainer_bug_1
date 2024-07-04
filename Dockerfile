@@ -1,5 +1,4 @@
-FROM public.ecr.aws/docker/library/ruby:3.3.2-slim AS tmp-base
-FROM tmp-base as development
+FROM public.ecr.aws/docker/library/ruby:3.3.2-slim
 ENV APP_HOME /app
 RUN mkdir $APP_HOME
 
